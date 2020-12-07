@@ -1,0 +1,170 @@
+<html>
+	<head>
+		<title>Home</title>
+		<!BOOTSTRAP-LINKS>
+		
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+		
+		<!GOOGLE-FONTS-LINK>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+		
+		<!FONT-AWESOME-ICON-LINK>
+		<script src="https://kit.fontawesome.com/8f015284da.js" crossorigin="anonymous"></script>
+		
+		<style>
+			
+			.logo{
+				width:3rem;
+				height: 3rem;
+				margin-right:0.5%;
+			}
+			
+			.menu{
+				font-size:1.5em;
+				padding-left:25px;
+				color:black;
+			}
+			
+			.container2{
+				background-color:#fff;
+				background-image:url(bg1.png);
+				height:85vh;
+				background-size:cover;
+				background-position:center;
+			}
+			
+			h4{
+				font-family:'Roboto', sans-serif;
+				font-size:3rem;
+				float:right;
+				margin-top:15%;
+			}
+			
+			.ask{
+				float:right;
+				margin-right:20%;
+				margin-top:2%;
+				margin-bottom:2%
+			}
+			.video-box{
+				width:800px;
+				
+			}
+			
+			.video-box img{
+				width:100%;
+			}
+			
+			.video-box .play-btn{
+				font-size:50px;
+				width:100px;
+				height:100px;
+				position:absolute;
+				left:0px;
+				right:0px;
+				top:0px;
+				bottom:0px;
+				margin:auto;
+			}
+			
+			.specs{
+				position:absolute;
+				left:0px;
+				right:0px;
+				top:0px;
+				bottom:0px;
+				margin:auto;
+			}
+			
+			.book{
+				width:250px;
+				height:150px;
+				 border:2px solid #fff;
+				box-shadow: 10px 10px 5px #ccc;
+				margin:30px;
+			}
+			
+		</style>
+	</head>
+<body>
+	<section id="title">
+		<div class="container-fluid">
+			<div class="navbar navbar-expand-lg navbar-light">
+				<img class="logo" src="logo.png" alt="logo">
+				<a class="navbar-brand edulogo" href=""><b><font size="40px" color="0e49b5">Coursify</font></b></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				</button>
+				<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+   
+				<ul class="navbar-nav ml-auto heading">
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Live Classes</b></a>
+					</li>
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Video Library</b></a>
+					</li>
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Course</b></a>
+					</li>
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Book</b></a>
+					</li>
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Board</b></a>
+					</li>
+					<li class="navbar-item menu">
+						<a class="nav-link" href=""><b>Exam</b></a>
+					</li>
+				</ul>
+
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="main">
+		<div class="container2">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6">
+					<div class="row">
+						<div class="col-lg-12">
+							<h4>Clarify your <font color="0e49b5">doubts</font><br>
+							in your language.</h4>
+						</div>
+						<div class="col-lg-12">
+							<button class="btn btn-danger ask">Ask your doubt now</button>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 video-box">
+					<a href="javascript:void();">
+					<img class="screen" src="screen.png" alt="screen">
+					<div class="play-btn">
+						<button class="btn btn-light"><i class="fa fa-play-circle-o fa-4x" aria-hidden="true"></i></button>
+					</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section id="specs">
+		<div class="row">
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<img src="book.png" alt="book" class="book">
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<img src="state.png" alt="state" class="book">
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<img src="vidlec.png" alt="video-lecture" class="book">
+			</div>
+			<div class="col-lg-3 col-md-6 col-sm-6">
+				<img src="covered.png" alt="covered" class="book">
+			</div>
+		</div>
+	</section>
+</body>
+</html>
